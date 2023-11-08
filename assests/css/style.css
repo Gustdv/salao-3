@@ -54,6 +54,7 @@ body{
     font-size: var(--normal-font-size);
     font-family: var(--body-font);
     overflow-x: hidden;
+    
 }
 ul{
     list-style: none;
@@ -239,13 +240,20 @@ a{
     }
     .nav__item{
         padding: 15px 0;
+        
        
     }
     .show-menu{
         width: 60%;
         pointer-events: none ;
     }
+    
+    .li:focus  {
+        width: 500px;
+        overflow: hidden;
+    }
 }
+
 
 .nav__link{
     font-weight: var(--font-bold);
