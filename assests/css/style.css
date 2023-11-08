@@ -41,7 +41,7 @@
     --z_negative: -1;
 }
 /* base */
-*, ::after, ::before{
+ *, ::after, ::before{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -232,7 +232,7 @@ a{
     color: black;
 }
 /* MEDIA QUERY NAVBAR */
-@media (max-width: 960px){
+@media (max-width: 750px){
     .nav{
         position: absolute;
         top: 0;
