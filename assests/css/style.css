@@ -46,6 +46,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    outline: none;
+  }
+  
+
 html{
     scroll-behavior: smooth;
 }
@@ -54,6 +63,7 @@ body{
     font-size: var(--normal-font-size);
     font-family: var(--body-font);
     overflow-x: hidden;
+    margin: 6;
     
 }
 ul{
@@ -246,11 +256,13 @@ a{
     .show-menu{
         width: 60%;
         pointer-events: none ;
+        
     }
     
-    .li:focus  {
+    .li:focus ~ ul {
         width: 500px;
         overflow: hidden;
+        pointer-events: none;
     }
 }
 
@@ -320,6 +332,16 @@ a{
     color: white;
     margin-bottom: var(--mb-1-5);
 }
+.hero__content span{
+    font-family: var(--font-cursive);
+    font-size: var(--big-font-size);
+    line-height: calc(var(--big-font-size) + 30px);
+    letter-spacing: 0.1em;
+    /*color: var(--first-color);*/
+    color: white;
+    margin-bottom: var(--mb-1-5);
+}
+
 /* ABOUT */
 .about{
     width: 100%;
