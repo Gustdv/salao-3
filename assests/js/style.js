@@ -19,6 +19,7 @@ function linkAction() {
     const navMenu = document.getElementById('nav')
     /*Quando um link ou o botão close for clicado a class show-menu será removido*/
     navMenu.classList.remove('show-menu')
+    navMenu.classList.remove('li')
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
