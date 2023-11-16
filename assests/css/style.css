@@ -70,8 +70,13 @@ ul{
     list-style: none;
 }
 a{
+    
     text-decoration: none;
 }
+#estetic {
+    color: #151515;
+}
+
 #safi{
     width: 240px;
     display: flex;
